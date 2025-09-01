@@ -1,8 +1,21 @@
-
 .header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+}
+
+.header::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(/assets/img/icon/ellipsis.svg);
 }
 
 .header .profile_pic {
@@ -16,6 +29,9 @@
     font-family: 'Bebas Neue', sans-serif;
     font-weight: 40;
     text-transform: capitalize;
+    background: none;
+    -webkit-text-fill-color: #fff;
+    color: #fff;
 }
 
 .infos {
@@ -23,17 +39,23 @@
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
+    background: none;
+    -webkit-text-fill-color: #fff;
+    color: #fff;
 }
 
-.infos p{
+.infos p {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin: .5rem;
     font-size: 1.25rem;
+    background: none;
+    -webkit-text-fill-color: #fff;
+    color: #fff;
 }
 
-.infos p::before{
+.infos p::before {
     content: '';
     display: inline-block;
     width: .825rem;
@@ -59,3 +81,28 @@
     background-image: url('/assets//img/icon/email.svg');
 }
 
+@media only screen and (min-width: 768px) {
+
+    .header {
+        display: grid;
+        grid-template-areas:
+            "profile_pic title"
+            "profile_pic infos"
+        ;
+    }
+
+    .header .profile_pic {
+        grid-area: profile_pic;
+        margin: 0 auto;
+    }
+
+    .header .title {
+        grid-area: title;
+        text-align: start;
+    }
+
+    .header .infos {
+        grid-area: infos;
+    }
+
+}

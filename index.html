@@ -23,6 +23,7 @@
 
     <link rel="stylesheet" href="/assets/css/header.css">
     <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/acordeon.css">
 
     <title>Portfólio Alexsander G Soares</title>
 </head>
@@ -32,17 +33,34 @@
         <header class="header">
             <img class="profile_pic" src="/assets/img/profile-pic.jpeg" alt="Minha foto de perfil">
 
-            <h1 class="title">Olá, eu sou Alexsander Galvão</h1>
+            <h1 class="title">Olá, <br> eu sou Alexsander Galvão</h1>
 
             <div class="infos">
-                <p class="job">Junior Developer</p>
+                <p class="job">Front-end Developer</p>
                 <p class="location">Canoas, RS</p>
                 <p class="phone">(+55) 51 9 9413-9701</p>
                 <p class="email">alexsanderga@gmail.com</p>
             </div>
         </header>
 
+        <section class="acordeon open">
+            <button class="trigger" type="button">
+                Idiomas
+            </button>
+
+            <div class="content">
+                <ul>
+                    <li>Português</li>
+                    <li>Inglês</li>
+                </ul>
+            </div>
+        </section>
     </div>
+
+
+
+
+    <script src="/assets/js/acordeon.js"></script>
 </body>
 
 </html>
