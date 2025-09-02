@@ -27,6 +27,12 @@
     border: none;
 }
 
+.acordeon .trigger h2 {
+    text-align: start;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
 
 .acordeon .trigger:hover {
     cursor: pointer;
