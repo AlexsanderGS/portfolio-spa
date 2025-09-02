@@ -1,14 +1,23 @@
-
 * {
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
-    
+
 }
 
 body {
     background-color: black;
     color: #fff;
     background: linear-gradient(120deg, #000000, #0f2a6d, #3f0071);
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: underline;
 }
 
 .main {
