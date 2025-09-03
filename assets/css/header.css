@@ -24,7 +24,8 @@
     border-radius: 50%;
 }
 
-.header .title {
+.header .title,
+.header .title span{
     text-align: center;
     font-family: 'Bebas Neue', sans-serif;
     font-weight: 40;

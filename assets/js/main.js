@@ -4,7 +4,7 @@ function updateProfileInfo(profileData) {
     photo.src = profileData.photo
     photo.alt = profileData.name
 
-    const name = document.getElementById('profile.name')
+    const name = document.getElementById('profile_name')
     name.innerText = profileData.name
 
     const job = document.getElementById('profile.job')
@@ -22,8 +22,15 @@ function updateProfileInfo(profileData) {
     email.href = `mailto:${profileData.email}`
 }
 
+function updateSoftSkills(profileData) {
+    const softSkills = document.getElementById('profile.skills.softSkills')
+
+    softSkills.innerHTML = profileData.skills.softSkills.map(skill => `<li>${skill}</li>`).join('')
+}
+
 (async () => {
     const profileData = await fetchProfileData()
     updateProfileInfo(profileData)
+    updateSoftSkills(profileData)
 
 })()
