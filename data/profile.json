@@ -38,13 +38,33 @@
   ],
   "portfolio": [
     {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+      "name": " Portfólio - Projeto final do curso JavaScritp Developer da plataforma de estudo Digital Innovation One.",
+      "url": "https://github.com/AlexsanderGS/portfolio-spa",
       "github": true
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "name": "Spotify Clone - Esse projeto foi realizado durante a Imersão Front-end, da plataforma de estudos Alura.",
+      "url": "https://github.com/AlexsanderGS/imersao-alura-spotify",
+      "github": true
+    },
+     {
+      "name": "POKEDEX - Projeto realizado durante o curso JavaScritp Developer da plataforma de estudo Digital Innovation One.",
+      "url": "https://github.com/AlexsanderGS/pokedex",
+      "github": true
+    },
+     {
+      "name": "HBO Max Clone - Projeto realizado durante o curso de CSS Developer da plataforma Digital Innovation One",
+      "url": "https://github.com/AlexsanderGS/desafio-hbo-max",
+      "github": true
+    },
+     {
+      "name": "Coffee Shop - Projeto realizado durante o curso de CSS da plataforma de estudo Digital Innovatio One.",
+      "url": "https://github.com/AlexsanderGS/coffee-shop",
+      "github": true
+    },
+     {
+      "name": "Discord Homepage - Projeto realizado durante o curso CSS Developer, da plataforma de estudos DIO.",
+      "url": "https://github.com/AlexsanderGS/desafio-discord-homepage",
       "github": true
     }
   ],
