@@ -47,22 +47,22 @@
       "url": "https://github.com/AlexsanderGS/imersao-alura-spotify",
       "github": true
     },
-     {
+    {
       "name": "POKEDEX - Projeto realizado durante o curso JavaScritp Developer da plataforma de estudo Digital Innovation One.",
       "url": "https://github.com/AlexsanderGS/pokedex",
       "github": true
     },
-     {
+    {
       "name": "HBO Max Clone - Projeto realizado durante o curso de CSS Developer da plataforma Digital Innovation One",
       "url": "https://github.com/AlexsanderGS/desafio-hbo-max",
       "github": true
     },
-     {
+    {
       "name": "Coffee Shop - Projeto realizado durante o curso de CSS da plataforma de estudo Digital Innovatio One.",
       "url": "https://github.com/AlexsanderGS/coffee-shop",
       "github": true
     },
-     {
+    {
       "name": "Discord Homepage - Projeto realizado durante o curso CSS Developer, da plataforma de estudos DIO.",
       "url": "https://github.com/AlexsanderGS/desafio-discord-homepage",
       "github": true
@@ -70,19 +70,29 @@
   ],
   "professionalExperience": [
     {
-      "name": "Arquiteto de software / S3 BANK",
-      "period": "2022 - até o momento",
-      "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
+      "name": "Analista Comercial – Datateck",
+      "period": "2021 - até o momento",
+      "description": "Atuação com análise de dados comerciais, atendimento a clientes e suporte estratégico para tomada de decisão. Desenvolvimento de habilidades de comunicação, organização e resolução de problemas que contribuem diretamente para a carreira em tecnologia."
     },
     {
-      "name": "Software Engineering Lead / DIO",
-      "period": "2021 - 2022",
-      "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
+      "name": "Pokedex",
+      "period": "2025",
+      "description": "Aplicação interativa desenvolvida em HTML, CSS e JavaScript, consumindo dados da PokeAPI. O projeto explora manipulação de DOM, requisições HTTP e responsividade."
     },
     {
-      "name": "CEO / Brain Machine",
-      "period": "2016 - 2021",
-      "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
+      "name": "Clone do Spotify",
+      "period": "2025",
+      "description": "Página desenvolvida em HTML, CSS e JavaScript, simulando a interface do Spotify, com funcionalidades de busca de artistas e integração com imagens."
+    },
+    {
+      "name": "Recriando a Página da HBO Max",
+      "period": "2025",
+      "description": "Este projeto, é uma réplica da página da HBO Max, desenvolvida como parte de um desafio do curso de CSS da plataforma Digital Innovation One (DIO). O objetivo foi aplicar e consolidar os conhecimentos adquiridos em estilização web, com foco em HTML e CSS."
+    },
+    {
+      "name": "Projeto Cafeteria",
+      "period": "2025",
+      "description": "O principal intuito deste projeto é proporcionar uma imersão nas funcionalidades e na estrutura do framework Bootstrap, explorando suas classes, componentes e sistemas de grid. Durante o desenvolvimento, foi dada ênfase à consulta e utilização da documentação oficial do Bootstrap como guia."
     }
   ]
 }

@@ -40,10 +40,26 @@ function updateLanguages(profileData) {
 function updatePortfolio(profileData) {
     const portfolio = document.getElementById('profile.portfolio')
     portfolio.innerHTML = profileData.portfolio.map(project => {
-        return `<li>
-                    <h3 ${project.github ? 'class="github"' : ''}>${project.name}</h3>
-                    <a href="${project.url}" target="_blank">${project.url}</a>
-                </li>`
+        return `
+            <li>
+                <h3 ${project.github ? 'class="github"' : ''}>${project.name}</h3>
+                <a href="${project.url}" target="_blank">${project.url}</a>
+            </li>
+        `
+
+    }).join('')
+}
+
+function updateProfessionalExperience(profileData) {
+    const professionalExperience = document.getElementById('profile.professionalExperience')
+    professionalExperience.innerHTML = profileData.professionalExperience.map(experience => {
+        return `
+            <li>
+                <h3 class="title">${experience.name}</h3>
+                <p class="period">${experience.period}t</p>
+                <p>${experience.description}</p>
+            </li>
+        `
     }).join('')
 }
 
@@ -54,5 +70,5 @@ function updatePortfolio(profileData) {
     updateHardSkills(profileData)
     updateLanguages(profileData)
     updatePortfolio(profileData)
-
+    updateProfessionalExperience(profileData)
 })()
